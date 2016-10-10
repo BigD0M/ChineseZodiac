@@ -1,6 +1,6 @@
 body {
 	background-color: #000000;
-	background: url("./images/planet_and_moon.jpg");
+	background: url("../images/planet_and_moon.jpg");
 	background-size: cover;
 	background-attachment: fixed;
 	font-family: arial, sans-serif;
@@ -103,7 +103,7 @@ a:visited {
 	display: inline-block;
 	width: 150px;
 	height: 50px;
-	background: url("./images/HomePageWhite.png");
+	background: url("../images/HomePageWhite.png");
 	overflow:hidden;
   text-indent:100%;
   white-space:nowrap;
@@ -113,14 +113,14 @@ a:visited {
 	display: inline-block;
 	width: 150px;
 	height: 50px;
-	background: url("./images/HomePageColor.png");
+	background: url("../images/HomePageColor.png");
 }
 
 #signs {
 	display: inline-block;
 	width: 150px;
 	height: 50px;
-	background: url("./images/12SignsWhite.png");
+	background: url("../images/12SignsWhite.png");
 	overflow:hidden;
   text-indent:100%;
   white-space:nowrap;
@@ -130,14 +130,14 @@ a:visited {
 	display: inline-block;
 	width: 150px;
 	height: 50px;
-	background: url("./images/12SignsColor.png");
+	background: url("../images/12SignsColor.png");
 }
 
 #contact {
 	display: inline-block;
 	width: 150px;
 	height: 50px;
-	background: url("./images/ContactUsWhite.png");
+	background: url("../images/ContactUsWhite.png");
 	overflow:hidden;
     text-indent:100%;
     white-space:nowrap;
@@ -147,5 +147,5 @@ a:visited {
 	display: inline-block;
 	width: 150px;
 	height: 50px;
-	background: url("./images/ContactUsColor.png");
+	background: url("../images/ContactUsColor.png");
 }
