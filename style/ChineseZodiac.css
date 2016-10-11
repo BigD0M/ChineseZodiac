@@ -1,64 +1,11 @@
 body {
 	background-color: #000000;
-	background: url("../images/planet_and_moon.jpg");
 	background-size: cover;
 	background-attachment: fixed;
 	font-family: arial, sans-serif;
 	font-size: 14px;
 	color: white;
 	margin: 0px;
-}
-
-.wrapper {
-	margin-left: auto;
-	margin-right: auto;
-	width: 100%;
-	height: 100%;
-}
-
-
-.header {
-	background-color: black;
-	text-align: center;
-	
-}
-
-.nav {
-	margin: auto;
-	text-align: center;
-}
-
-
-.banner {
-	display: inline-block;
-	padding-top:10px;
-	margin: auto;
-}
-
-.main {
-	margin: 50px 160px 50px 160px;
-}
-
-
-.content {
-	background-color: black;
-	border-top-left-radius: 20px;
-	border-top-right-radius: 20px;
-	padding: 50px;
-	padding-bottom: 100px;
-	text-align: center;
-}
-
-.footer {
-  position: relative;
-  display: block;
-  height: 25px;
-  padding: 10px 50px 0px 50px;
-  border-bottom-left-radius: 20px;
-  border-bottom-right-radius: 20px;
-  margin: auto;
-  background-color: #191919;
-  text-align: center;
 }
 
 p {
@@ -100,52 +47,139 @@ a:visited {
 }
 
 #home {
-	display: inline-block;
-	width: 150px;
-	height: 50px;
-	background: url("../images/HomePageWhite.png");
-	overflow:hidden;
-  text-indent:100%;
-  white-space:nowrap;
+display: inline-block;
+width: 150px;
+height: 50px;
+background: url("../images/HomePageWhite.png");
+overflow:hidden;
+text-indent:100%;
+white-space:nowrap;
 }
 
 #home:hover {
-	display: inline-block;
-	width: 150px;
-	height: 50px;
-	background: url("../images/HomePageColor.png");
+display: inline-block;
+width: 150px;
+height: 50px;
+background: url("../images/HomePageColor.png");
 }
 
 #signs {
-	display: inline-block;
-	width: 150px;
-	height: 50px;
-	background: url("../images/12SignsWhite.png");
-	overflow:hidden;
-  text-indent:100%;
-  white-space:nowrap;
+display: inline-block;
+width: 150px;
+height: 50px;
+background: url("../images/12SignsWhite.png");
+overflow:hidden;
+text-indent:100%;
+white-space:nowrap;
 }
 
 #signs:hover {
-	display: inline-block;
-	width: 150px;
-	height: 50px;
-	background: url("../images/12SignsColor.png");
+display: inline-block;
+width: 150px;
+height: 50px;
+background: url("../images/12SignsColor.png");
 }
 
 #contact {
-	display: inline-block;
-	width: 150px;
-	height: 50px;
-	background: url("../images/ContactUsWhite.png");
-	overflow:hidden;
-    text-indent:100%;
-    white-space:nowrap;
+display: inline-block;
+width: 150px;
+height: 50px;
+background: url("../images/ContactUsWhite.png");
+overflow:hidden;
+text-indent:100%;
+white-space:nowrap;
 }
 
 #contact:hover {
-	display: inline-block;
-	width: 150px;
-	height: 50px;
-	background: url("../images/ContactUsColor.png");
+display: inline-block;
+width: 150px;
+height: 50px;
+background: url("../images/ContactUsColor.png");
+}
+
+@media screen and (max-width: 480px) {
+ 
+		#home{
+			background: url("../images/HomePageWhite.png");
+			margin: auto;
+			display:block; 
+		}
+		#contact{
+			background: url("../images/ContactUsWhite.png");
+			margin: auto;
+			display:block; 
+		}
+		#signs{
+			background: url("../images/12SignsWhite.png");
+			margin: auto;
+			display:block; 
+		}
+		
+		.content {
+			background-color: black;
+			text-align: center;
+		}
+		
+		.wrapper {
+			margin-left: auto;
+			margin-right: auto;
+			width: 100%;
+			height: 100%;
+		}
+
+		.header {
+			background-color: black;
+			text-align: center;
+		}
+		
+}
+@media screen and (min-width: 480px) {
+		body{
+			background-image: url("../images/planet_and_moon.jpg");
+		}
+		
+		.content {
+			background-color: black;
+			border-top-left-radius: 20px;
+			border-top-right-radius: 20px;
+			padding: 50px;
+			padding-bottom: 100px;
+			text-align: center;
+		}
+		
+		.main {
+			margin: 50px 160px 50px 160px;
+		}
+		
+		.footer {
+			position: relative;
+			display: block;
+			height: 25px;
+			padding: 10px 50px 0px 50px;
+			border-bottom-left-radius: 20px;
+			border-bottom-right-radius: 20px;
+			margin: auto;
+			background-color: #191919;
+			text-align: center;
+		}
+		
+		.wrapper {
+			margin-left: auto;
+			margin-right: auto;
+			width: 100%;
+			height: 100%;
+		}
+
+
+		.header {
+			background-color: black;
+			text-align: center;
+			
+		}
+
+		.banner {
+			display: inline-block;
+			padding-top:10px;
+			margin: auto;
+		}
 }
