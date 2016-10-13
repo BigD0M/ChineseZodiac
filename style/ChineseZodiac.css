@@ -102,12 +102,12 @@ background: url("../images/ContactUsColor.png");
 		#home{
 			background: url("../images/HomePageWhite.png");
 			margin: auto;
-			display:block; 
+			display:block;
 		}
 		#contact{
 			background: url("../images/ContactUsWhite.png");
 			margin: auto;
-			display:block; 
+			display:block;			
 		}
 		#signs{
 			background: url("../images/12SignsWhite.png");
@@ -129,6 +129,15 @@ background: url("../images/ContactUsColor.png");
 
 		.header {
 			background-color: black;
+			text-align: center;
+		}
+		
+		.footer {
+			position: relative;
+			display: block;
+			padding: 10px 50px 0px 50px;
+			margin: auto;
+			background-color: gray;
 			text-align: center;
 		}
 		
