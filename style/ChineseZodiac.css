@@ -97,7 +97,23 @@ height: 50px;
 background: url("../images/ContactUsColor.png");
 }
 
-@media screen and (max-width: 480px) {
+.sign{
+text-align: center;
+display: block;
+margin: auto;
+padding-top: 75px;
+}
+
+.carousel-inner{
+  width: auto;
+  min-height: 350px;
+}
+
+.carousel-caption {
+    top: 0;
+    bottom: auto;
+}
+@media screen and (max-width: 767px) {
  
 		#home{
 			background: url("../images/HomePageWhite.png");
@@ -137,12 +153,12 @@ background: url("../images/ContactUsColor.png");
 			display: block;
 			padding: 10px 50px 0px 50px;
 			margin: auto;
-			background-color: gray;
+			background-color: #191919;
 			text-align: center;
 		}
 		
 }
-@media screen and (min-width: 480px) {
+@media screen and (min-width: 768px) {
 		body{
 			background-image: url("../images/planet_and_moon.jpg");
 		}
