@@ -97,6 +97,12 @@ height: 50px;
 background: url("../images/ContactUsColor.png");
 }
 
+.banner {
+display: inline-block;
+padding-top:10px;
+margin: auto;
+}
+
 .sign{
 text-align: center;
 display: block;
@@ -199,12 +205,5 @@ padding-top: 75px;
 		.header {
 			background-color: black;
 			text-align: center;
-			
-		}
-
-		.banner {
-			display: inline-block;
-			padding-top:10px;
-			margin: auto;
 		}
 }
