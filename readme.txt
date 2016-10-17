@@ -27,8 +27,6 @@ Not Completed:
 Nothing.
 
 Challenges:
-Getting the forms to validate properly, while still functioning 
-correctly. Required a lot of research and trial and error.
-Having page resize correctly.
-Getting footer to stay at the bottom of the page, AND resize 
-correctly with the rest of the page.
+Setting up the carousel, with it validating correctly and centering
+the images text for it. Changing css to workf for both mobile and
+desktop versions.
